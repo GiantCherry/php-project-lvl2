@@ -12,6 +12,9 @@
     "bin": [
         "bin/gendiff"
     ],
+    "scripts": {
+        "phpcs": "phpcs"
+    },
     "autoload": {
         "files": [
             "src/Cli.php"
@@ -19,5 +22,8 @@
     },
     "require": {
         "docopt/docopt": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
     }
 }
