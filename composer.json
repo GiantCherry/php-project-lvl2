@@ -12,5 +12,12 @@
     "bin": [
         "bin/gendiff"
     ],
-    "require": {}
+    "autoload": {
+        "files": [
+            "src/Cli.php"
+        ]
+    },
+    "require": {
+        "docopt/docopt": "*"
+    }
 }
