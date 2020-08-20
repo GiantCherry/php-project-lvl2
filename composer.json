@@ -3,6 +3,7 @@
     "description": "This is the second Hexlet's PHP project.",
     "keywords": ["hexlet", "php", "composer"],
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "GiantCherry",
