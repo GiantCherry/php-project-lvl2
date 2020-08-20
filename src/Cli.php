@@ -4,7 +4,8 @@ namespace DifferenceComputer\Cli;
 
 use Docopt;
 
-function run() {
+function run()
+{
     $doc = <<<'DOCOPT'
     Generate diff
     
@@ -20,11 +21,11 @@ function run() {
     
     DOCOPT;
 
-        $result = Docopt::handle($doc, array('version' => '1.0.0rc2'));
+    $result = Docopt::handle($doc, array('version' => '1.0.0rc2'));
 
-        print_r($result);
+    print_r($result);
 
-
-        foreach ($result as $k => $v)
-            echo $k . ': ' . json_encode($v) . PHP_EOL;
+    foreach ($result as $k => $v) {
+        echo $k . ': ' . json_encode($v) . PHP_EOL;
+    }
 }
