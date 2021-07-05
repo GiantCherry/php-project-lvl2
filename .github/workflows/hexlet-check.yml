@@ -24,4 +24,8 @@ jobs:
       - name: Hexlet project check
         uses: hexlet/project-action@release
         with:
+<<<<<<< HEAD
           hexlet-id: ${{ secrets.HEXLET_ID }}
+=======
+          hexlet-id: ${{ secrets.HEXLET_ID }}
+>>>>>>> origin/master
